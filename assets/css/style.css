@@ -1,0 +1,148 @@
+* {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.edu-wraper {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.edu-container {
+    background-color: #fff;
+    width: 640px;
+
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.edu-header {
+    display: flex;
+}
+
+.edu-header .header-logo {
+    background-color: #eeeeee;
+    width: 145px;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.edu-header .header-info {
+    background-color: #137814;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.edu-header .header-info .header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-header .header-info .header-top h2 {
+    color: #95e17d;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.edu-header .header-info hr {
+    margin: 0px;
+    border-block-start: 1px solid #95e17d;
+}
+
+.edu-header .header-info h2 {
+    font-size: 15px;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.edu-header .header-info p {
+    background-image: url("../../bar_bk.jpg");
+    margin-bottom: 0px;
+    font-size: 11px;
+    color: #fff;
+    padding: 5px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.edu-header .header-info p:hover {
+    color: #95e17d;
+}
+
+.edu-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-body .result-form {
+    width: 450px;
+    border: 1px solid #333;
+    padding: 20px 50px;
+    margin: 20px 0px;
+}
+
+.edu-body .result-form .form-fields-row {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.edu-body .result-form .form-fields-row label {
+    font-size: 12px;
+    font-weight: bold;
+    width: 122px;
+    display: block;
+}
+
+.edu-body .result-form .form-fields-row  span {
+    margin-right: 20px;
+}
+
+.edu-body .result-form .form-fields-row input,
+.edu-body .result-form .form-fields-row select {
+    color: #000;
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid #999;
+    width: 200px;
+    background-color: #f4f0f2;
+    font-size: 12px;
+}
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.btns button{
+    appearance: auto;
+    user-select: none;
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    white-space: pre;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 1px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    border-radius: 3px;
+}
