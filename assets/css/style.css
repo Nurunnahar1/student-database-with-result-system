@@ -109,7 +109,7 @@ li {
     display: block;
 }
 
-.edu-body .result-form .form-fields-row  span {
+.edu-body .result-form .form-fields-row span {
     margin-right: 20px;
 }
 
@@ -123,12 +123,14 @@ li {
     background-color: #f4f0f2;
     font-size: 12px;
 }
-.btns{
+
+.btns {
     display: flex;
     justify-content: flex-end;
     gap: 5px;
 }
-.btns button{
+
+.btns button {
     appearance: auto;
     user-select: none;
     align-items: flex-start;
@@ -145,4 +147,83 @@ li {
     border-color: buttonborder;
     border-image: initial;
     border-radius: 3px;
+}
+
+.edu-footer {
+    border-top: 5px solid #86c775;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.edu-footer p {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 0px;
+}
+
+.edu-footer ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 0px;
+}
+
+
+/*============= Result Page Design ===========*/
+.result-sheet {
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.result-sheet h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.edu-student-info table {
+    width: 100%;
+    display: block;
+}
+
+.edu-student-info table tr td {
+    font-size: 12px;
+    background-color: #eeeeee;
+    border: 1px solid #fff;
+    padding: 3px;
+}
+
+.edu-student-info table tr td:first-child {
+    width: 75px;
+}
+
+.edu-student-info table tr td:nth-child(2) {
+    width: 150px;
+}
+
+.edu-student-info table tr td:nth-child(3) {
+    width: 130px;
+}
+
+.edu-student-info table tr td:nth-child(4) {
+    width: 264px;
+}
+
+.edu-student-grade-sheet table {
+    width: 100%;
+}
+
+.edu-student-grade-sheet table th {
+    font-size: 12px;
+    padding: 3px;
+}
+.edu-student-grade-sheet table td {
+    font-size: 12px;
+    padding: 3px;
 }
